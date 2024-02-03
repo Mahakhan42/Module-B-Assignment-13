@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: orange;
+}
+.layout-container {
+    display: flex;
+  }
+.Sidebar{
+    background-color: #fff;
+    max-width: 240px;
+    height: 100%;
+    padding: 25px;
+}
+.Links  li{
+    list-style: none;
+    color: #000;
+}
+.Links ul li:hover{
+background-color: orange;
+padding: 10px;
+border-radius: 20px;
+}
+.content-container {
+    padding: 50px; 
+  }
+  Link {
+    list-style: none;
+  }
+.col {
+  background-color:#fff;
+  padding:10px 100px;
+  border-radius: 10px;
+}
+.col-md-6{
+  background-color: #fff;
+}
